@@ -1,5 +1,5 @@
 # Izanagi-pen-framework
-Izanagi Pentest Framework - um framework de pentest brasileiro
+Izanagi Pentest Framework - um framework de pentest web 100% brasileiro 
 
 versão atual -> Izanagi - Pen Framework v1.0 
 Próxima versão -> Izanagi - Red Team Operations Center v2.0
