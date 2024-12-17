@@ -1,0 +1,35 @@
+    IoT
+    ├── Câmeras
+    │   ├── Testar Conectividade
+    │   ├── Testar Protocolos
+    │   │   ├── RTSP
+    │   │   ├── ONVIF
+    │   ├── Testar Portas
+    │   │   ├── 80
+    │   │   ├── 554
+    │   └── Segurança
+    │       ├── Atualização de Firmware
+    │       └── Alteração de Senhas
+    ├── Geladeiras Inteligentes
+    │   ├── Testar Conectividade
+    │   ├── Testar Protocolos
+    │   ├── Testar Sensores
+    │   └── Segurança
+    │       ├── Atualização de Firmware
+    │       └── Alteração de Senhas
+    ├── Roteadores
+    │   ├── Testar Conectividade
+    │   ├── Testar Protocolos
+    │   │   ├── DHCP
+    │   │   ├── PPPoE
+    │   ├── Testar Portas
+    │   │   ├── 22 (SSH)
+    │   │   ├── 80 (HTTP)
+    │   └── Segurança
+    │       ├── WPA3
+    │       └── Alteração de Senhas
+    ├── Dispositivos Gerais
+    │   ├── Testar Conectividade
+    │   ├── Testar Protocolos
+    │   └── Segurança
+    └── ...

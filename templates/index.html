@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Auxiliar de Pentest e IoT</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            margin: 20px auto;
+        }
+        
+        .map {
+            margin: 20px;
+            padding: 10px;
+            background: #e2e2e2;
+            border-radius: 5px;
+            width: 45%;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .nav-item {
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Pastas Da Izanagi -></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Mitres">Mapas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exploits">Exploits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cheatsheets">CheatSheets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wordlists">Wordlists</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Mapas Mentais</h1>
+    <div class="container">
+        <div class="map">
+            <h2>Pentest</h2>
+            <pre>
+    Pentest
+    ├── Scanning - Nmap
+    │   ├── Não Http
+    │   │   ├── 1. Versão Desatualizada
+    │   │   ├── 2. Configuração Incorreta
+    │   │   └── 3. Credenciais
+    │   │       ├── 1. Versão Desatualizada
+    │   │       ├── 2. Configuração Incorreta
+    │   │       └── 3. Credenciais
+    │   └── Http
+    │       ├── 1. Versão Desatualizada
+    │       ├── 2. Configuração Incorreta
+    │       ├── 3. Credenciais
+    │       ├── 4. Fuzzing de Diretório
+    │       ├── 5. VA
+    │       │   ├── WhatWeb
+    │       │   ├── Nuclei
+    │       │   ├── Nikto
+    │       │   ├── Wapiti
+    │       │   └── WpScan
+    │       └── 6. Owasp Top 10
+    └── ...
+            </pre>
+        </div>
+        <div class="map">
+            <h2>IoT</h2>
+            <pre>
+    IoT
+    ├── Câmeras
+    │   ├── Testar Conectividade
+    │   ├── Testar Protocolos
+    │   │   ├── RTSP
+    │   │   ├── ONVIF
+    │   ├── Testar Portas
+    │   │   ├── 80
+    │   │   ├── 554
+    │   └── Segurança
+    │       ├── Atualização de Firmware
+    │       └── Alteração de Senhas
+    ├── Geladeiras Inteligentes
+    │   ├── Testar Conectividade
+    │   ├── Testar Protocolos
+    │   ├── Testar Sensores
+    │   └── Segurança
+    │       ├── Atualização de Firmware
+    │       └── Alteração de Senhas
+    ├── Roteadores
+    │   ├── Testar Conectividade
+    │   ├── Testar Protocolos
+    │   │   ├── DHCP
+    │   │   ├── PPPoE
+    │   ├── Testar Portas
+    │   │   ├── 22 (SSH)
+    │   │   ├── 80 (HTTP)
+    │   └── Segurança
+    │       ├── WPA3
+    │       └── Alteração de Senhas
+    ├── Dispositivos Gerais
+    │   ├── Testar Conectividade
+    │   ├── Testar Protocolos
+    │   └── Segurança
+    └── ...
+            </pre>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
